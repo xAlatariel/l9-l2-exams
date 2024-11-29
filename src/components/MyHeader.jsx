@@ -1,11 +1,10 @@
 import React from 'react';
-import { Dropdown } from 'react-bootstrap';  // Importa il componente Dropdown
-import 'bootstrap/dist/css/bootstrap.min.css';  // Importa il CSS di Bootstrap
+import { Dropdown } from 'react-bootstrap';  
+import 'bootstrap/dist/css/bootstrap.min.css';  
 
 function MyHeader() {
   return (
     <div className="d-flex justify-content-between">
-      {/* Sezione "TV Shows" con dropdown */}
       <div className="d-flex">
         <h2 className="mb-4 text-white">TV Shows</h2>
         <div className="btn-group" role="group">
@@ -16,7 +15,7 @@ function MyHeader() {
               className="rounded-0"
               style={{ backgroundColor: '#221f1f' }}
             >
-              Genres
+              Genreshttps://github.com/xAlatariel/l9-l2-exams
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item href="#">Comedy</Dropdown.Item>
